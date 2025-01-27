@@ -66,10 +66,10 @@ The concept of fragility and tipping points in chess has also been highlighted i
 2. **Run** the script with:
 
    ```bash
-   python your_script_name.py /path/to/game.pgn
+   python fragility.py /path/to/game.pgn
    ```
 
-   - `your_script_name.py` is the Python file containing the code shown above.  
+   - `fragility.py` is the Python file containing the code shown above.  
    - `/path/to/game.pgn` is the PGN file you want to analyze.
 
 The script will read the game, compute fragility scores and engine evaluations for each ply, and print the results to standard output.
