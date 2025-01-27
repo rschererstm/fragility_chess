@@ -68,7 +68,7 @@ The concept of fragility and tipping points in chess has also been highlighted i
 
 ## Usage
 
-1. **Prepare a PGN file** containing exactly one chess game. (If multiple games are in the same file, the script only processes the first.)  
+1. **Prepare a PGN file** containing exactly one chess game. (If multiple games are in the same file, the script only processes the first.) [Export your PGN with annotation to get the 'Eval' column]
 2. **Run** the script with:
 
    ```bash
