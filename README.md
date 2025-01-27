@@ -87,11 +87,11 @@ The script will read the game, compute fragility scores and engine evaluations f
 The program prints a table with columns:
 
 ```
-Ply | Move    | Fragility | Eval  | TopAttackedPiece      | CumulativeEval
---------------------------------------------------------------------------
-  0 | start-pos |     0.000 | None  | -                    |  +0.00
-  1 | e2e4     |     0.01 | +0.50 | Q@d1                 |  +0.50
-  2 | d7d5     |     0.05 | +0.60 | n@f6                 |  +1.10
+Ply | Move    | Fragility | Eval  | TopAttackedPiece 
+-----------------------------------------------------
+  0 | start-pos |     0.000 | None  | -      
+  1 | e2e4     |     0.01 | +0.50 | Q@d1       
+  2 | d7d5     |     0.05 | +0.60 | n@f6       
   ...
 ```
 
@@ -102,8 +102,6 @@ Here’s what each column represents:
 3. **Fragility** – The total *fragility score* of the position. Higher means more crucial pieces (with high betweenness centrality) are under attack.  
 4. **Eval** – The engine evaluation from PGN comments, if any. Can be a float (e.g., `+0.50`) or a mate notation (e.g., `#3`). If not found, it shows `None`.  
 5. **TopAttackedPiece** – The single attacked piece with the highest betweenness centrality, displayed as `X@sq`, where `X` is the piece symbol, and `sq` is the board square. `-` if no piece is attacked.  
-6. **CumulativeEval** – A running sum of the numeric evals (ignoring mate notation). For instance, if the engine eval was +0.50 and then +0.60, the cumulative is +1.10.  
-
 ---
 
 ## References
