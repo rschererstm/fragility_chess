@@ -1,4 +1,4 @@
-# Chess Fragility Score and Engine Evaluations
+# Chess Fragility Score in Chess
 
 This repository provides a Python script that reads a single chess game from a PGN file and computes:
 
