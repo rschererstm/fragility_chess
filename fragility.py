@@ -191,8 +191,8 @@ if __name__ == "__main__":
     
     cumulative_eval = 0.0
     
-    print("Ply | Move      | Fragility  | Eval   | TopAttackedPiece     | CumulativeEval")
-    print("----------------------------------------------------------------------------")
+    print("Ply | Move      | Fragility  | Eval   | TopAttackedPiece")
+    print("--------------------------------------------------------")
     for ply_num, move_uci, frag_score, eval_score, top_node in scores:
         # Display the move
         if move_uci is None:
@@ -214,4 +214,4 @@ if __name__ == "__main__":
         
         # Note that we are printing the actual ply (ply_num),
         # but you can divide by 2 if you want the "chess move number".
-        print(f"{ply_num:3d} | {move_uci:9s} | {frag_score:10.3f} | {eval_display:6s} | {top_node_str:20s} | {cumulative_eval:+.2f}")
+        print(f"{ply_num:3d} | {move_uci:9s} | {frag_score:10.3f} | {eval_display:6s} | {top_node_str:20s}")
