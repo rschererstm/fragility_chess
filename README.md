@@ -1,5 +1,9 @@
 # Chess Fragility Score in Chess
 
+![image](https://github.com/user-attachments/assets/2c2dcf4b-3e22-41ca-980f-e317e5957dca) ![image](https://github.com/user-attachments/assets/bfbb6630-d76b-453a-a93d-bef78f783395)
+
+
+
 This repository provides a Python script that reads a single chess game from a PGN file and computes:
 
 1. **Fragility Score** at each half-move (ply), as defined in the paper  
