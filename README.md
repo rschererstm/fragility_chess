@@ -45,8 +45,8 @@ The concept of fragility and tipping points in chess has also been highlighted i
 1. **Clone** (or download) this repository:
 
    ```bash
-   git clone https://github.com/yourusername/chess-fragility-eval.git
-   cd chess-fragility-eval
+   git clone https://github.com/rschererstm/fragility_chess/
+   cd fragility_chess
    ```
 
 2. **Create a virtual environment** (optional but recommended):
