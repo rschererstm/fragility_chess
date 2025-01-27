@@ -97,7 +97,7 @@ Ply | Move    | Fragility | Eval  | TopAttackedPiece      | CumulativeEval
 
 Here’s what each column represents:
 
-1. **Ply** – The half-move index, integer-divided by 2 to display full-move count if you prefer (e.g., ply=0 means before any move; ply=1 means after White’s 1st move).  
+1. **Ply** – The move index, integer to display full-move count.  
 2. **Move** – The move in UCI notation (e.g., `e2e4`). “start-pos” indicates the initial position before any move is played.  
 3. **Fragility** – The total *fragility score* of the position. Higher means more crucial pieces (with high betweenness centrality) are under attack.  
 4. **Eval** – The engine evaluation from PGN comments, if any. Can be a float (e.g., `+0.50`) or a mate notation (e.g., `#3`). If not found, it shows `None`.  
