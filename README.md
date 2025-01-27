@@ -1,7 +1,9 @@
 # Chess Fragility Score in Chess
 
-![image](https://github.com/user-attachments/assets/2c2dcf4b-3e22-41ca-980f-e317e5957dca) ![image](https://github.com/user-attachments/assets/bfbb6630-d76b-453a-a93d-bef78f783395)
-
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/2c2dcf4b-3e22-41ca-980f-e317e5957dca" alt="Image 1" width="300" height="300">
+  <img src="https://github.com/user-attachments/assets/bfbb6630-d76b-453a-a93d-bef78f783395" alt="Image 2" width="300" height="300">
+</div>
 
 
 This repository provides a Python script that reads a single chess game from a PGN file and computes:
