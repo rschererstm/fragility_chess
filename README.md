@@ -1,4 +1,4 @@
-# Chess Fragility Score in Chess
+# Chess Fragility Score in Chess [Draft]
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/2c2dcf4b-3e22-41ca-980f-e317e5957dca" alt="Image 1" width="300" height="300">
