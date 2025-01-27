@@ -90,8 +90,8 @@ The program prints a table with columns:
 Ply | Move    | Fragility | Eval  | TopAttackedPiece      | CumulativeEval
 --------------------------------------------------------------------------
   0 | start-pos |     0.000 | None  | -                    |  +0.00
-  0 | e2e4     |     0.01 | +0.50 | Q@d1                 |  +0.50
-  1 | d7d5     |     0.05 | +0.60 | n@f6                 |  +1.10
+  1 | e2e4     |     0.01 | +0.50 | Q@d1                 |  +0.50
+  2 | d7d5     |     0.05 | +0.60 | n@f6                 |  +1.10
   ...
 ```
 
