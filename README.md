@@ -113,7 +113,11 @@ Here’s what each column represents:
    [*Phys. Rev. E **111**, 014314 (2025)*](https://journals.aps.org/pre/pdf/10.1103/PhysRevE.111.014314).
 
 2. **Popular-Science Article**  
-   [Ars Technica: Complexity physics finds crucial tipping points in chess games](https://arstechnica.com/science/2025/01/complexity-physics-finds-crucial-tipping-points-in-chess-games/#:~:text=He%20also%20calculated%20so%2Dcalled,over%20the%20last%20200%20years.)
+   [Python code for computing the fragility score during a chess game (Phys. Rev. E 111, 014314)](https://arstechnica.com/science/2025/01/complexity-physics-finds-crucial-tipping-points-in-chess-games/#:~:text=He%20also%20calculated%20so%2Dcalled,over%20the%20last%20200%20years.)
+
+3. **Original Jupyter [shared now]**  
+   [Ars Technica: Complexity physics finds crucial tipping points in chess games](https://zenodo.org/records/14742727)
+
 
 ---
 
